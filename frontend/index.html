@@ -545,7 +545,7 @@
             button.textContent = '...';
             
             try {
-                const response = await fetch(`${API_URL}/api/room-in-use`, {
+                const response = await fetch(`/api/room-in-use`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
